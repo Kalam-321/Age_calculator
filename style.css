@@ -47,7 +47,7 @@
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
-
+    
 }
 
 .input-box input
@@ -60,8 +60,8 @@
     outline: 0;
     border-radius: 5px;
     font-size: 1rem;
-    position: relative;
-
+    /* position: relative; */
+    cursor: pointer;
 }
 
 .input-box button{
@@ -78,7 +78,7 @@
 }
 
 .input-box input::-webkit-calendar-picker-indicator{
-    top: 0;
+    /* top: 0;
     left: 0;
     bottom: 0;
     right: 0; 
@@ -87,7 +87,8 @@
     background-position: calc(100% - 10px);
     background-size: 30px;
     cursor: pointer;
-    height: auto;
+    height: auto; */
+    cursor: pointer;
 }
 
 #result
