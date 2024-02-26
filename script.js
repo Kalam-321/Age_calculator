@@ -9,7 +9,7 @@ function calculateAge()
 
     if(birthDate>today)
     {
-        result.innerHTML = "Abhi paida ni hua hi tu &#128514;";
+        result.innerHTML = "Are you from the future?! &#128514;";
         return;
     }
 
