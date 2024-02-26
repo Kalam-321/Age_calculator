@@ -4,6 +4,11 @@ let result = document.getElementById("result");
 
 function calculateAge()
 {
+    if(userInput.value>userInput.max)
+    {
+        result.innerHTML = "Abhi paida ni hua hi tu &#128514;";
+        return;
+    }
     let birthDate = new Date(userInput.value);
     let today = new Date();
 
